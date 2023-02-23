@@ -17,11 +17,20 @@ class TimePathCalculatorServiceTest {
         String expectedResult="10h 0m 0s";
         TimePathCalculatorService timePathCalculatorService=new TimePathCalculatorService(distancetring, speedString);
         //act
-        String result=timePathCalculatorService.execute();
+        String result=timePathCalculatorService.execute(new ExecutionServiceStub());
         //assert
         assertEquals(expectedResult,result, "tempo di percorrenza calcolato correttamente");
     }
 
     //TODO: continuare con i test
 
+
+    //TEST DOUBLES: Stub
+    private class ExecutionServiceStub implements ExecutionService {
+
+        @Override
+        public Integer getPercentage() {
+            return 4;
+        }
+    }
 }

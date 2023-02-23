@@ -21,7 +21,9 @@ public class TimePathCalculatorService {
         this.speedString=speedString;
     }
 
-    public String execute() throws DistanceConverterException {
+    public String execute(ExecutionService executionService) throws DistanceConverterException {
+        if (executionService.getPercentage()>5)
+            System.out.println("percentuale maggiore a 5");
         DistanceConverter dc=new DistanceConverter();
         String[] distanceArray=distanceString.split(" ");
         String[] speedArray=speedString.split(" ");
