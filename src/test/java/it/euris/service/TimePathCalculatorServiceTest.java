@@ -1,6 +1,7 @@
 package it.euris.service;
 
 import it.euris.exception.DistanceConverterException;
+import it.euris.logging.Logger;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +16,7 @@ class TimePathCalculatorServiceTest {
         String distancetring="500 KM";
         String speedString="50 KMH";
         String expectedResult="10h 0m 0s";
-        TimePathCalculatorService timePathCalculatorService=new TimePathCalculatorService(distancetring, speedString);
+        TimePathCalculatorService timePathCalculatorService=new TimePathCalculatorService(distancetring, speedString, new DummyLogger());
         //act
         String result=timePathCalculatorService.execute();
         //assert
@@ -23,5 +24,14 @@ class TimePathCalculatorServiceTest {
     }
 
     //TODO: continuare con i test
+
+
+    //TEST DOUBLES DUMMY
+    private class DummyLogger implements Logger {
+
+        @Override
+        public void append(String text) {
+        }
+    }
 
 }

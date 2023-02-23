@@ -1,0 +1,12 @@
+
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+p
+@src/main/java/it/euris/exception/DistanceConverterException.java,5/5/55f53b82384690a7ff5ff220678b659faab328b8
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+m
+=src/main/java/it/euris/exception/SpeedConverterException.java,c/2/c29072fa69a1aaa2b4fff1f641290e48620c3112
+l
+<src/main/java/it/euris/exception/TimeConverterException.java,6/4/64a22b6381d5dda568d20327d340c5c32ba0fcf1

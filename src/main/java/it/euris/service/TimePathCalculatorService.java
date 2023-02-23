@@ -4,7 +4,7 @@ import it.euris.converter.DistanceConverter;
 import it.euris.converter.SpeedConverter;
 import it.euris.converter.TimeConverter;
 import it.euris.exception.DistanceConverterException;
-import lombok.AllArgsConstructor;
+import it.euris.logging.Logger;
 import lombok.Data;
 
 @Data
@@ -16,12 +16,16 @@ public class TimePathCalculatorService {
     DistanceConverter distanceConverter;
     SpeedConverter speedConverter;
 
-    public TimePathCalculatorService(String distanceString, String speedString) {
+    Logger logger;
+
+    public TimePathCalculatorService(String distanceString, String speedString, Logger logger) {
         this.distanceString=distanceString;
         this.speedString=speedString;
+        this.logger=logger;
     }
 
     public String execute() throws DistanceConverterException {
+        logger.append("inizio esezuzione Time Path Calculator Service at");
         DistanceConverter dc=new DistanceConverter();
         String[] distanceArray=distanceString.split(" ");
         String[] speedArray=speedString.split(" ");
@@ -58,6 +62,7 @@ public class TimePathCalculatorService {
         }
         Double hours=distanceConverter.getKilometers()/speedConverter.getKilometersPerHour();
         TimeConverter timeConverter=new TimeConverter();
+        logger.append("fine esezuzione Time Path Calculator Service at");
         return timeConverter.convertToString(hours);
     }
 
