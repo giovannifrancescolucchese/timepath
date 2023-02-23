@@ -9,7 +9,8 @@ mi/h -> velocità necessaria per percorrere 1 miglio terrestre
 
 
 
-data una distanza e una velocità (in qualsiasi unità di misura) definire il tempo necessario per percorrere quella distanza (definito in ore, minuti, secondi).
+data una distanza e una velocità (in qualsiasi unità di misura) definire il tempo necessario
+per percorrere quella distanza (definito in ore, minuti, secondi).
 
 Remind:
 
