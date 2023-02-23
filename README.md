@@ -13,7 +13,7 @@ data una distanza e una velocità (in qualsiasi unità di misura) definire il te
 
 Remind:
 
-V=S/T => ... ?
+V=S/T => TV=S => T=S/V  
 
 
 
@@ -22,6 +22,7 @@ Ad es:
 INPUT (500 Km, 23 nodi)...quanto ci vuole per percorrere 500km ad una media di 23 nodi?
 
 500Km
+
 23nodi=23*(1.852 km/h)=42.596 km/h
 
 => percorrerò 500km in 11 ore, 44 minuti e 17 secondi d una velocità media di 23 nodi
