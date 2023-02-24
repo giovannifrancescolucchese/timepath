@@ -1,8 +1,8 @@
-package it.euris;
+package it.euris.distances;
 
-public enum DistanzeEnum {
+public enum DistanceEnum {
 
-    KILOMETRO,
+    km,
     MIGLIOMARINO,
     MIGLIO;
 

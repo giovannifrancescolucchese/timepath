@@ -1,2 +1,7 @@
-package it.euris;public class Velocity {
+package it.euris;
+
+public class Velocity {
+
+    
+
 }
