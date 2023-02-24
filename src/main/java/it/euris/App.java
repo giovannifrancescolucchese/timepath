@@ -2,6 +2,7 @@ package it.euris;
 
 import it.euris.exception.DistanceConverterException;
 import it.euris.logging.TimeStampLogger;
+import it.euris.logging.XLogger;
 import it.euris.service.TimePathCalculatorService;
 
 import java.util.Scanner;
@@ -14,7 +15,7 @@ public class App
         String distanza = in.nextLine();
         System.out.println( "Inserire la velocita media in KMH o in KN o in MIH");
         String velocita = in.nextLine();
-        TimePathCalculatorService tpcService=new TimePathCalculatorService(distanza,velocita, new TimeStampLogger());
+        TimePathCalculatorService tpcService=new TimePathCalculatorService(distanza,velocita, new XLogger());
         System.out.println(String.format("ad una velocita' media di %s per percorrere %s ci vogliono %s", velocita, distanza, "risultato"));
         System.out.println(tpcService.execute());
     }

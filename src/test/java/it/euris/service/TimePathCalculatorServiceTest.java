@@ -2,6 +2,7 @@ package it.euris.service;
 
 import it.euris.exception.DistanceConverterException;
 import it.euris.logging.Logger;
+import it.euris.logging.XLogger;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -27,11 +28,8 @@ class TimePathCalculatorServiceTest {
 
 
     //TEST DOUBLES DUMMY
-    private class DummyLogger implements Logger {
+    private class DummyLogger extends XLogger {
 
-        @Override
-        public void append(String text) {
-        }
     }
 
 }
