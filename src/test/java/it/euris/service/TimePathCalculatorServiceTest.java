@@ -30,7 +30,7 @@ class TimePathCalculatorServiceTest {
 
         @Override
         public Integer getPercentage() {
-            return 4;
+            return 81;
         }
     }
 }

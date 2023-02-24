@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2c7904-22cd-4812-aebc-77b9c794a88d" name="Changes" comment="dummy test doubles">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/service/ExecutionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/service/ExecutionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/it/euris/service/TimePathCalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/euris/service/TimePathCalculatorServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_doubles/dummy" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -190,6 +190,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1677185688883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1677227779507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
