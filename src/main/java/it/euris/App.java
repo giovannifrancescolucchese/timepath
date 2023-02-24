@@ -14,6 +14,8 @@ public class App {
         Time time = calculator.calcuteTime(500, new Speed(23, TypeOfSpeed.NODE));
         System.out.println(time.showTime());
 
+        Time t = new Time(7890);
+        System.out.println(t.showTime());
 
     }
 }

@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2c7904-22cd-4812-aebc-77b9c794a88d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/Speed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/TimeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/TypeOfSpeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/euris/time/TimeCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/time/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/time/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/time/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,7 @@
       <recent name="it.euris.time" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeCalculatorTest">
+  <component name="RunManager" selected="JUnit.All in timepath">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.euris.App" />
       <module name="timepath" />
@@ -83,6 +76,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in timepath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timepath" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,22 +99,6 @@
       <option name="PACKAGE_NAME" value="it.euris.time" />
       <option name="MAIN_CLASS_NAME" value="it.euris.time.TimeCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeCalculatorTest.checkTheCalculateTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="timepath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.euris.time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="it.euris.time" />
-      <option name="MAIN_CLASS_NAME" value="it.euris.time.TimeCalculatorTest" />
-      <option name="METHOD_NAME" value="checkTheCalculateTime(double,int,it.euris.time.TypeOfSpeed,int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,12 +119,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timepath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.euris.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.euris.time" />
+      <option name="MAIN_CLASS_NAME" value="it.euris.time.TimeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeCalculatorTest" />
+        <item itemvalue="JUnit.All in timepath" />
+        <item itemvalue="JUnit.TimeTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TimeCalculatorTest" />
         <item itemvalue="JUnit.TimeCalculatorTest.givenDistanceAndSpeedWhenCalculateTuneThenCheckTheHours" />
-        <item itemvalue="JUnit.TimeCalculatorTest.checkTheCalculateTime" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +165,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1677227987471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

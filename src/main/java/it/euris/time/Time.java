@@ -1,9 +1,9 @@
 package it.euris.time;
 
 public class Time {
-    public int second;
-    public int minute;
-    public int hour;
+    private final int second;
+    private final int minute;
+    private final int hour;
 
 
     public Time(double second) {
@@ -16,27 +16,17 @@ public class Time {
         return minute;
     }
 
-    public void setMinute(int minute) {
-        this.minute = minute;
-    }
-
     public int getHour() {
         return hour;
     }
 
-    public void setHour(int hour) {
-        this.hour = hour;
-    }
 
     public int getSecond() {
         return second;
     }
 
-    public void setSecond(int second) {
-        this.second = second;
-    }
 
     public String showTime() {
-        return String.format("%d ore, %d minuti e %d secondi", hour, minute, second);
+        return String.format("%d ore %d minuti e %d secondi", hour, minute, second);
     }
 }
