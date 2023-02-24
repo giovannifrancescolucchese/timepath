@@ -1,5 +1,7 @@
 package it.euris.time;
 
+import it.euris.exception.SpeedDistanceMinusZeroException;
+
 public class TimeCalculator {
     private static TimeCalculator instance;
 
@@ -13,8 +15,12 @@ public class TimeCalculator {
         return instance;
     }
 
-    public Time calcuteTime(double distance, Speed speed) {
-        double second = 1;
+    public Time calcuteTime(double distance, Speed speed) throws SpeedDistanceMinusZeroException {
+        if (distance < 0 || speed.getValue() < 0){
+            throw new SpeedDistanceMinusZeroException("Distance or speed cannot be minor of zero");
+        }
+
+            double second = 1;
         switch (speed.getType()) {
             case KM:
                 second = (distance / speed.getValue()) * 3600;
