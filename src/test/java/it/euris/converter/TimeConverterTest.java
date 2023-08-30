@@ -16,7 +16,7 @@ public class TimeConverterTest   {
     }
 
     @Test
-    @DisplayName("convert BigDecimal 0 the return 0h 0m 0s and set the correct attributes")
+    @DisplayName("convert Double 0 then return 0h 0m 0s and set the correct attributes")
     public void givenConvertToStringWhen0ThenReturn0h0m0s() {
         //arrange
         Double time=0d;
@@ -30,7 +30,7 @@ public class TimeConverterTest   {
     }
 
     @Test
-    @DisplayName("convert String 0h 0m 0s the return 0h 0m 0s and set the correct attributes")
+    @DisplayName("convert String 0h 0m 0s then return 0h 0m 0s and set the correct attributes")
     public void givenConvertToBigDecimalgWhen0h_0m_0sThenReturn0() {
         //arrange
         String timeString="0h 0m 0s";
@@ -40,7 +40,7 @@ public class TimeConverterTest   {
         //assert
         assertNotNull(timeConverter.getTimeDouble());
         assertNotNull(timeConverter.getTimeString());
-        assertEquals(result, timeResult, "conversione in BigDecimal avvenuta correttamente");
+        assertEquals(result, timeResult, "conversione in Double avvenuta correttamente");
     }
 
 

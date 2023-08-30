@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class DistanceConverter {
     //1Km=1000m, 1MM=1852m, 1MT=1609.344m
 
-    Double  kilometers;
+    Double kilometers;
     Double miles;
     Double nauticalMiles;
 
