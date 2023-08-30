@@ -1,6 +1,7 @@
 package it.euris.service;
 
 import it.euris.exception.DistanceConverterException;
+import it.euris.exception.ParsingException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -23,5 +24,15 @@ class TimePathCalculatorServiceTest {
     }
 
     //TODO: continuare con i test
+    @Test
+    @DisplayName("convert String 0h 0m 0s the return 0h 0m 0s and set the correct attributes")
+    public void givenExecuteWhen500__KMAnd50KMHThenReturnException() throws DistanceConverterException {
+        //arrange
+        String distancetring="500  KM";
+        String speedString="50 KMH";
+        TimePathCalculatorService timePathCalculatorService=new TimePathCalculatorService(distancetring, speedString);
+        //act
+        assertThrows(ParsingException.class, ()->timePathCalculatorService.execute());
+        }
 
 }
