@@ -4,6 +4,8 @@ import it.euris.exception.DistanceConverterException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TimePathCalculatorServiceTest {
@@ -30,7 +32,9 @@ class TimePathCalculatorServiceTest {
 
         @Override
         public Integer getPercentage() {
-            return 81;
+            //Random random=new Random();
+            //return random.nextInt()%100;
+            return 79;
         }
     }
 }
