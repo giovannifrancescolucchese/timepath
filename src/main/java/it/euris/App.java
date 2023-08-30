@@ -1,6 +1,7 @@
 package it.euris;
 
 import it.euris.exception.DistanceConverterException;
+import it.euris.exception.ParsingException;
 import it.euris.service.TimePathCalculatorService;
 
 import java.util.Scanner;
@@ -16,5 +17,6 @@ public class App
         TimePathCalculatorService tpcService=new TimePathCalculatorService(distanza,velocita);
         System.out.println(String.format("ad una velocita' media di %s per percorrere %s ci vogliono %s", velocita, distanza, "risultato"));
         System.out.println(tpcService.execute());
+
     }
 }

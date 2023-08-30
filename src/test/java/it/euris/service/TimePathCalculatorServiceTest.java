@@ -2,6 +2,7 @@ package it.euris.service;
 
 import it.euris.exception.DistanceConverterException;
 import it.euris.exception.ParsingException;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,9 +25,9 @@ class TimePathCalculatorServiceTest {
     }
 
     //TODO: continuare con i test
-    @Test
-    @DisplayName("convert String 0h 0m 0s the return 0h 0m 0s and set the correct attributes")
-    public void givenExecuteWhen500__KMAnd50KMHThenReturnException() throws DistanceConverterException {
+    @Disabled
+    @DisplayName("given wrong input the ParsingEsception expected")
+    public void givenExecuteWhen500__KMAnd50KMHThenReturnParsingException() throws DistanceConverterException {
         //arrange
         String distancetring="500  KM";
         String speedString="50 KMH";
@@ -35,4 +36,5 @@ class TimePathCalculatorServiceTest {
         assertThrows(ParsingException.class, ()->timePathCalculatorService.execute());
         }
 
+        //TODO: continuare con i test
 }
