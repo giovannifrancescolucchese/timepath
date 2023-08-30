@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2c7904-22cd-4812-aebc-77b9c794a88d" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/converter/DistanceConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/converter/SpeedConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/converter/TimeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/exception/DistanceConverterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/exception/SpeedConverterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/exception/TimeConverterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/euris/converter/DistanceConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/euris/converter/SpeedConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/euris/converter/TimeConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/euris/service/TimePathCalculatorServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/euris/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +23,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2M8UJ9XuXP3EyhUgZwm5rCGogFO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
@@ -70,7 +64,7 @@
       <recent name="it.euris.converter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in timepath">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.euris.App" />
       <module name="timepath" />
@@ -200,6 +194,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1677185688883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1693386092547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
