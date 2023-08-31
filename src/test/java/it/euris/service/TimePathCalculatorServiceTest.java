@@ -25,6 +25,7 @@ class TimePathCalculatorServiceTest {
     }
 
     //TODO: continuare con i test
+    /*
     @Disabled
     @DisplayName("given wrong input the ParsingEsception expected")
     public void givenExecuteWhen500__KMAnd50KMHThenReturnParsingException() throws DistanceConverterException {
@@ -35,6 +36,6 @@ class TimePathCalculatorServiceTest {
         //act
         assertThrows(ParsingException.class, ()->timePathCalculatorService.execute());
         }
-
+*/
         //TODO: continuare con i test
 }
