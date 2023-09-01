@@ -25,7 +25,7 @@ public class TimePathCalculatorService {
     }
 
     public String execute() throws DistanceConverterException {
-        logger.append("inizio esezuzione Time Path Calculator Service at");
+        logger.append("inizio esecuzione Time Path Calculator Service at");
         DistanceConverter dc=new DistanceConverter();
         String[] distanceArray=distanceString.split(" ");
         String[] speedArray=speedString.split(" ");
@@ -62,7 +62,7 @@ public class TimePathCalculatorService {
         }
         Double hours=distanceConverter.getKilometers()/speedConverter.getKilometersPerHour();
         TimeConverter timeConverter=new TimeConverter();
-        logger.append("fine esezuzione Time Path Calculator Service at");
+        logger.append("fine esecuzione Time Path Calculator Service at");
         return timeConverter.convertToString(hours);
     }
 
