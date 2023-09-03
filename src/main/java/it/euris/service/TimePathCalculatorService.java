@@ -22,6 +22,7 @@ public class TimePathCalculatorService {
     }
 
     public String execute(ExecutionService executionService) throws DistanceConverterException {
+        executionService.increment();
         if (executionService.getPercentage()>80)
             return "percentuale maggiore a 80";
         DistanceConverter dc=new DistanceConverter();

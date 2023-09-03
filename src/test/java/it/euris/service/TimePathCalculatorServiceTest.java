@@ -8,6 +8,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.verify;
 
 class TimePathCalculatorServiceTest {
 
@@ -24,7 +25,9 @@ class TimePathCalculatorServiceTest {
         Mockito.when(executionServiceMock.getPercentage()).thenReturn(79);
         //act
         String result=timePathCalculatorService.execute(executionServiceMock);
+
         //assert
+        verify(executionServiceMock).increment();
         assertEquals(expectedResult,result, "tempo di percorrenza calcolato correttamente");
     }
 
