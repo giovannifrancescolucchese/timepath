@@ -1,0 +1,19 @@
+
+c
+3src/main/java/it/euris/converter/TimeConverter.java,a/a/aa1464aa8ca39a310c9ef6891f8a979d13d87cb4
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+k
+;src/test/java/it/euris/converter/DistanceConverterTest.java,0/1/0173bbebb772cfa1d9399028fb125ba4fbeb84ff
+d
+4src/main/java/it/euris/converter/SpeedConverter.java,4/2/422e768e2931eb3391f7cb1adff07fdf0ef24444
+g
+7src/main/java/it/euris/converter/DistanceConverter.java,4/6/46f2c542c49af2322bf5d256ec128802b38fc3a5
+O
+src/main/java/it/euris/App.java,6/3/630f4a57e0d2e27f64a89e3b7da25964352540cb
+m
+=src/main/java/it/euris/service/TimePathCalculatorService.java,e/6/e6c59d99fa037138b883a3e8ab98f313763242f0
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+q
+Asrc/test/java/it/euris/service/TimePathCalculatorServiceTest.java,3/d/3d67c2140e2d013f516af1e40e3d3c512767068a
