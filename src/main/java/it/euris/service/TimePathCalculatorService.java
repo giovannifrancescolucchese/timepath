@@ -5,6 +5,7 @@ import it.euris.converter.SpeedConverter;
 import it.euris.converter.TimeConverter;
 import it.euris.exception.DistanceConverterException;
 import it.euris.logging.Logger;
+import it.euris.logging.TimeStampLogger;
 import lombok.Data;
 
 @Data

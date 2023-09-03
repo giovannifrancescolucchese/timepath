@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class TimeStampLogger implements Logger{
-    @Override
+    //@Override
     public void append(String text) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss.SSS");
         //just to test the legacy to the component ... int i=5/0;
