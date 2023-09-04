@@ -17,9 +17,9 @@ public class TimePathCalculatorService {
     DistanceConverter distanceConverter;
     SpeedConverter speedConverter;
 
-    Logger logger;
+    TimeStampLogger logger;
 
-    public TimePathCalculatorService(String distanceString, String speedString, Logger logger) {
+    public TimePathCalculatorService(String distanceString, String speedString, TimeStampLogger logger) {
         this.distanceString=distanceString;
         this.speedString=speedString;
         this.logger=logger;

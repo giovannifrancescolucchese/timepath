@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b2c7904-22cd-4812-aebc-77b9c794a88d" name="Changes" comment="implementation of the application, and set the test base to improve">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/logging/TimeStampLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/logging/TimeStampLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/it/euris/service/TimePathCalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/euris/service/TimePathCalculatorServiceTest.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <recent name="it.euris.converter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimePathCalculatorServiceTest.givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s">
+  <component name="RunManager" selected="JUnit.TimePathCalculatorServiceTest.givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s_2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.euris.App" />
       <module name="timepath" />
@@ -76,22 +76,6 @@
       <module name="timepath" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeConverterTest.givenConvertToStringWhen0ThenReturn0h0m0s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="timepath" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.euris.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="it.euris.converter" />
-      <option name="MAIN_CLASS_NAME" value="it.euris.converter.TimeConverterTest" />
-      <option name="METHOD_NAME" value="givenConvertToStringWhen0ThenReturn0h0m0s" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,13 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimePathCalculatorServiceTest.givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timepath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.euris.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.euris.service" />
+      <option name="MAIN_CLASS_NAME" value="it.euris.service.TimePathCalculatorServiceTest" />
+      <option name="METHOD_NAME" value="givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimePathCalculatorServiceTest.givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s_2" />
         <item itemvalue="JUnit.TimePathCalculatorServiceTest.givenExecuteWhen500KMAnd50KMHThenReturn10h0m0s" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TimePathCalculatorServiceTest" />
         <item itemvalue="JUnit.All in timepath" />
-        <item itemvalue="JUnit.TimeConverterTest.givenConvertToStringWhen0ThenReturn0h0m0s" />
       </list>
     </recent_temporary>
   </component>
@@ -183,19 +183,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/euris/converter/DistanceConverter.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/it/euris/converter/DistanceConverterTest.java</url>
           <line>46</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/euris/service/TimePathCalculatorService.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1677227779507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/timepath$All_in_timepath.ic" NAME="All in timepath Coverage Results" MODIFIED="1693386151349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/timepath$TimePathCalculatorServiceTest_givenExecuteWhen500__KMAnd50KMHThenReturnException.ic" NAME="TimePathCalculatorServiceTest.givenExecuteWhen500__KMAnd50KMHThenReturnException Coverage Results" MODIFIED="1693386137950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.euris.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
